@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Results/output
+results/
+*.pkl
+
+# Profiling / logs
+*.log
+*.prof
+EOF
