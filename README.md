@@ -87,7 +87,29 @@ Filenames encode the eigenenergy in eV and the band:
 0-1.326217721890eV_LH.txt    # light hole,  -1.326 eV
 ```
 
+## Input wavefunctions
 
+The single-particle electron and hole wavefunctions used as input are
+computed with the strain-dependent 8-band k·p envelope-function method
+of Pryor [1], in the basis ordering of Bahder [2]. That solver is not
+publicly available, so a small example dataset is provided in
+`example_dataset/` to make the CI calculation runnable out of the box.
+
+If you wish to use wavefunctions from another envelope-function code
+(e.g. one of the open-source k·p packages now available), note that the
+Bloch-band ordering assumed throughout `interactions.py` and
+`material.py` is specific to the Bahder basis. Inputs in a different
+basis must be transformed accordingly before they can be used here.
+
+**References**
+
+1. C. Pryor, *Eight-band calculations of strained InAs/GaAs quantum dots
+   compared with one-, four-, and six-band approximations*,
+   Phys. Rev. B **57**, 7190 (1998).
+   [doi:10.1103/PhysRevB.57.7190](https://doi.org/10.1103/PhysRevB.57.7190)
+2. T. B. Bahder, *Eight-band k·p model of strained zinc-blende crystals*,
+   Phys. Rev. B **41**, 11992 (1990).
+   [doi:10.1103/PhysRevB.41.11992](https://doi.org/10.1103/PhysRevB.41.11992)
 
 ## Module layout
 
