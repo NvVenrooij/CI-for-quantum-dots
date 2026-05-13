@@ -16,6 +16,18 @@ exciton eigenenergies. Understanding the exciton energy spectrum, or fine
 structure, is crucial for implementing quantum dots in future quantum
 technologies.
 
+## Related publication
+
+This code was used in:
+
+> N. R. S. van Venrooij, A. R. da Cruz, R. S. R. Gajjella, P. M. Koenraad,
+> C. E. Pryor, and M. E. Flatté, *Fine structure splitting cancellation
+> in highly asymmetric InAs/InP droplet epitaxy quantum dots*,
+> Phys. Rev. B **109**, L201405 (2024).
+> [doi:10.1103/PhysRevB.109.L201405](https://doi.org/10.1103/PhysRevB.109.L201405)
+
+If you use this code in academic work, please cite the paper above.
+
 ## Features
 
 - Configuration interaction calculations for exciton states
@@ -129,18 +141,6 @@ containing the input single-particle energies, the individual interaction
 Hamiltonians, the assembled CI Hamiltonian, all CI coefficients, and the
 list of `(eigenenergy, oscillator_strength)` tuples for each physical
 choice of interaction set.
-
-## Related publication
-
-This code was used in:
-
-> N. R. S. van Venrooij, A. R. da Cruz, R. S. R. Gajjella, P. M. Koenraad,
-> C. E. Pryor, and M. E. Flatté, *Fine structure splitting cancellation
-> in highly asymmetric InAs/InP droplet epitaxy quantum dots*,
-> Phys. Rev. B **109**, L201405 (2024).
-> [doi:10.1103/PhysRevB.109.L201405](https://doi.org/10.1103/PhysRevB.109.L201405)
-
-If you use this code in academic work, please cite the paper above.
 
 ## Requirements
 
