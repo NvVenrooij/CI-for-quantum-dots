@@ -87,8 +87,6 @@ Filenames encode the eigenenergy in eV and the band:
 0-1.326217721890eV_LH.txt    # light hole,  -1.326 eV
 ```
 
-## Input wavefunctions
-
 The single-particle electron and hole wavefunctions used as input are
 computed with the strain-dependent 8-band k·p envelope-function method
 of Pryor [1], in the basis ordering of Bahder [2]. That solver is not
