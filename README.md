@@ -81,12 +81,13 @@ k·p solver. The expected layout is:
 
 Filenames encode the eigenenergy in eV and the band:
 
-0.3307081259430eV.txt            # electron, +0.331 eV
-0-1.261509141160eV_HH.txt        # heavy hole, -1.262 eV
-0-1.326217721890eV_LH.txt        # light hole, -1.326 eV
+```text
+0.3307081259430eV.txt        # electron,    +0.331 eV
+0-1.261509141160eV_HH.txt    # heavy hole,  -1.262 eV
+0-1.326217721890eV_LH.txt    # light hole,  -1.326 eV
+```
 
-The leading `0-` is the legacy way of writing a negative energy; it is
-parsed correctly.
+
 
 ## Module layout
 
@@ -130,6 +131,4 @@ If you use this code in academic work, please cite the paper above.
 - Output: excitonic eigenenergies, oscillator strengths, CI coefficients
 
 ## License
-
-[Add the license you've chosen — MIT and BSD-3-Clause are common picks
-for academic numerical code.]
+MIT 
